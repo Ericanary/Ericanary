@@ -1,0 +1,11 @@
+/* Style Sheet -- Eri & Co. */
+div.home {
+    height: 50px; 
+    width: 210px; 
+    text-align: center; 
+    line-height: 50px; 
+    font-weight: bolder; 
+    font-family: cursive;
+    color: #F3E5AB; 
+    float: left;
+}
