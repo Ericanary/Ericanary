@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+    
+    
 <head>
-    <style> 
-        body{ 
-            background-color: #7BCCB5;
-        }
-        div.home:hover{
-            background-color: #772F27;
-            cursor: pointer;
-        }
-        div.blog:hover{
-            background-color: #772F27;
-            cursor: pointer;
-        }
-        div.shop:hover{
-            background-color: #772F27;
-            cursor: pointer;
-        }
-        div.about:hover{
-            background-color: #772F27;
-            cursor: pointer;
-        }
-        div.contact:hover{
-            background-color: #772F27;
-            cursor: pointer;
-        }
+    <style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </style>
-    <title>
-    Eri &amp; Co.
-    </title>
+    <meta charset="utf-8">
 </head>
+    
+    
 <body>
-<!--Banner-->
-<div id="banner" style="background-color: #7BCCB5; height: 200px; width: 1050px; line-height: 200px; text-align: center; font-weight: bolder; font-size: 150px; color: #C77F77; margin: 0 auto;">ERI &amp; CO.</div>
-<!--NavBar-->
-<div id="navbar" style="background-color: #C77F77; height: 50px; width: 1050px; margin:0 auto;">
-    <div class="home" style="height: 50px; width: 210px; text-align: center; line-height: 50px; font-weight: bolder; color: #F3E5AB; float: left;">HOME</div>
-    <div class="blog" style="height: 50px; width: 210px; text-align: center; line-height: 50px; font-weight: bolder; color: #F3E5AB; float: left;">BLOG</div>
-    <div class="shop" style="height: 50px; width: 210px; text-align: center; line-height: 50px; font-weight: bolder; color: #F3E5AB; float: left;">SHOP</div>
-    <div class="about" style="height: 50px; width: 210px; text-align: center; line-height: 50px; font-weight: bolder; color: #F3E5AB; float: left;">ABOUT</div>
-    <div class="contact" style="height: 50px; width: 210px; text-align: center; line-height: 50px; font-weight: bolder; color: #F3E5AB; float: left;">CONTACT</div>    
-</div>
-<!--Page Content Divs-->
-    <div id="content-wrap" style="height: 3000px; width: 1050px; margin: 0 auto;">
-        <div id="leftnavbar" style="height: 3000px; width: 210px; background-color: #C77F77; float: left;">
-            <div id="avatar"> <img src="avatar-generic.png" alt="user image"> </div>
+<!-- Banner -->
+    <div id="ban" class="banner">ERI &amp; CO.</div>
+<!-- Nav Bar -->
+    <div id="nav" class="navwrap">
+        <div id="home" class="navbutton">HOME</div>
+        <div id="blog" class="navbutton">BLOG</div>
+        <div id="shop" class="navbutton">SHOP</div>
+        <div id="about" class="navbutton">ABOUT</div>
+        <div id="contact" class="navbutton">CONTACT</div>
+    </div>
+<!-- Content -->
+    <div id="con" class="conwrap">
+        <div id="lnav" class="leftnavbar">
+            <div id="ava" class="avatar"></div>
         </div>
-        <div id="content-here" style="height: 3000px; width: 839px; background-color: #FFF8DC; float: left;"></div>
+        <div id="cont" class="content"></div>
     </div>
 </body>
+    
+      
+<footer>
+    
+</footer>
+    
+    
 </html>
