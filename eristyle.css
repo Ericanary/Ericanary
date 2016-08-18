@@ -2,6 +2,7 @@
 body{
     background-color: #7BCCB5;
     }
+
 div.banner{
     background-color: #7BCCB5; 
     height: 200px; 
@@ -48,10 +49,6 @@ div.leftnavbar{
     width: 210px; 
     background-color: #C77F77; 
     float: left;
-    }
-
-div.avatar{
-    <img src="avatar-generic.png" alt="user image">
     }
 
 div.content{
